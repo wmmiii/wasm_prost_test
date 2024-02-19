@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package wasm_prost_test;
+
+message TestProto {
+  string name = 1;
+}
